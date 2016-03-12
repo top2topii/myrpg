@@ -12,18 +12,16 @@
   - HP: VIT * 10
   - MP: WIL * 10
   - 상수(X): 300
-  - Damage: STR + Weapon Damage
+  - Physical Damage: STR + Weapon Damage
+  - Magical Damage: WIL(?)
   - Critical Damage: Damage * 1.5
-  - Critical Rate: (DEX/(X+DEX))
-  - Dodge Rate: (DEX/(X+DEX))
-  - Physical Resist Rate: (VIT/(X+VIT))
-  - Magical Resist Rate: (WIL/(X+WIL))
+  - Critical Rate: 일정상수
+  - Dodge Rate: 일정상수
+  - Physical Resist point: 일정상수
 
 ####1.1.2 
 
   - Strength(힘): STR
-  - Dextrity(민첩): DEX
-  - Intelligence(지능): INT
   - Will(정신): WIL
   - Vitality(활력): VIT
 

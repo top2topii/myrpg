@@ -55,11 +55,11 @@ class  Character():
             'vit': 30,              # 활력
             'hp':30,                # 체력
             'mp':30,                # 마나
-            'damage': 0,            # 공격력 보너스
-            'physical_defense_rate': 0.0,  # 물리 방어력 보너스
-            'magic_defense_rate': 0.0,    # 마법 방어력 보너스
-            'critical_rate': 0.0,     # 치명타율
-            'dodge_rate': 0.0,        # 회피율
+            'damage': 0,                    # 공격력 포인트
+            'physical_defense_point': 0.0,   # 물리 방어력 포인트
+            'critical_rate': 0.1,           # 치명타율
+            'dodge_rate': 0.1,              # 회피율
+            'attack_success_rate': 1.0,     # 공격 성공율
             'attack_speed': g_attack_speed,       # 공속, 단위는 tick
         }
 
